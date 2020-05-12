@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab06Zoo.MythologicalCreatures.Norse
 {
-    public abstract class Norse
+    public abstract class Norse : MythologicalCreature
     {
         public virtual bool heraldsRagnarok = false;
     }
