@@ -4,7 +4,14 @@ using System.Text;
 
 namespace Lab06Zoo.MythologicalCreatures
 {
-    class Class1
+    public abstract class MythologicalCreature
     {
+        public virtual int numberOfHeads { get; set; } = 1;
+        public virtual bool hasWings { get; set; } = false;
+        public abstract int numberOfLegs { get; set; }
+
+        
+
+
     }
 }

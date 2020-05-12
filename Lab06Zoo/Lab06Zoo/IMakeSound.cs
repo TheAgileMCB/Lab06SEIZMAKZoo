@@ -4,7 +4,12 @@ using System.Text;
 
 namespace Lab06Zoo
 {
-    interface Interface1
+    interface IMakeSound
     {
+        abstract string MakeSound()
+        {
+            string sound = "";
+            return sound;
+        }  
     }
 }
