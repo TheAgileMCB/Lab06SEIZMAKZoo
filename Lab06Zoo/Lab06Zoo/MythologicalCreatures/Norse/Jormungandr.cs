@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab06Zoo.MythologicalCreatures.Norse
 {
-    class Jormungandr
+    public class Jormungandr : Norse
     {
     }
 }

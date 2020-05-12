@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab06Zoo.MythologicalCreatures.Japanese
 {
-    class Kitsune
+    public class Kitsune : Japanese
     {
     }
 }
