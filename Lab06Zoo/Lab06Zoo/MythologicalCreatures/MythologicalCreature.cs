@@ -12,8 +12,5 @@ namespace Lab06Zoo.MythologicalCreatures
         public abstract int numberOfLegs { get; set; }
         public abstract int numberOfWings { get; set; }
 
-        
-
-
     }
 }
