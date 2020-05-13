@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Lab06Zoo.MythologicalCreatures.Interface;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Lab06Zoo.MythologicalCreatures.Japanese
 {
-    public class Kitsune : Japanese
+    public class Kitsune : Japanese, ICanOutrun
     {
         public new int numberOfHeads = 1;
         public new bool isFriendly = true;
@@ -22,5 +23,7 @@ namespace Lab06Zoo.MythologicalCreatures.Japanese
         {
             return "Yip!";
         }
+
+        public bool ICanOutrun() => false;
     }
 }
