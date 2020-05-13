@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Lab06Zoo.MythologicalCreatures.Interface;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Lab06Zoo.MythologicalCreatures.Greek
 {
-    public class Chimera : Greek
+    public class Chimera : Greek, ICanOutrun
     {
         public new int numberOfHeads = 3;
         public new bool isFriendly = false;
@@ -21,5 +22,7 @@ namespace Lab06Zoo.MythologicalCreatures.Greek
         {
             return "Roar!";
         }
+
+        public bool ICanOutRun() => false;
     }
 }
