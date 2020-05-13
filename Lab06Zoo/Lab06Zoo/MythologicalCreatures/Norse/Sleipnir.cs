@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Lab06Zoo.MythologicalCreatures.Norse
 {
-    public class Sleipnir : Norse
+    public class Sleipnir : Norse, ICanRide
     {
         public new int numberOfHeads = 1;
         public new bool isFriendly = true;
@@ -22,5 +22,7 @@ namespace Lab06Zoo.MythologicalCreatures.Norse
         {
             return "Neight!";
         }
+
+        public bool ICanRide() => true;
     }
 }
