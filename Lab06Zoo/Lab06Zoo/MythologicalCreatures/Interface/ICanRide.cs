@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lab06Zoo
+namespace Lab06Zoo.MythologicalCreatures.Interface
 {
     interface ICanRide
     {
