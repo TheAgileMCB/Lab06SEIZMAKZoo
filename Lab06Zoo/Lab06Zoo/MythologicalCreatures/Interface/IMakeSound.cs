@@ -6,6 +6,6 @@ namespace Lab06Zoo.MythologicalCreatures.Interface
 {
     interface IMakeSound
     {
-        abstract string MakeSound();
+        string MakeSound();
     }
 }
