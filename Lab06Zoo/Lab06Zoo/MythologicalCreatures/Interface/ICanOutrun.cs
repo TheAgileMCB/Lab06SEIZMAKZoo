@@ -6,7 +6,7 @@ namespace Lab06Zoo.MythologicalCreatures.Interface
 {
     interface ICanOutrun
     {
-        public virtual bool CanOutrun()
+        virtual bool CanOutrun()
         {
             //int creatureStrength = 10;
             //if (userStrengthRoll > creatureStrength)

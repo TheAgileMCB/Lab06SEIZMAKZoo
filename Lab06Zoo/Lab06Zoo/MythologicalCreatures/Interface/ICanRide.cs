@@ -6,7 +6,7 @@ namespace Lab06Zoo.MythologicalCreatures.Interface
 {
     interface ICanRide
     {
-        public virtual bool CanRide()
+        virtual bool CanRide()
         {
             //int creatureStrength = 10;
             //if (userStrengthRoll > creatureStrength)
