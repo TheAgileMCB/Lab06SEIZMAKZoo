@@ -9,5 +9,9 @@ namespace Lab06Zoo.MythologicalCreatures.Greek
     public abstract class Greek : MythologicalCreature, IEat, IMakeSound
     {
         public virtual bool bornOfAGod { get; set; } = false;
+
+        public abstract string Eats();
+
+        public abstract string MakeSound();
     }
 }
