@@ -23,9 +23,9 @@ namespace Lab06Zoo.MythologicalCreatures.Greek
             return "Neigh!";
         }
 
-        public bool ICanRide() => true;
+        public bool CanRide() => true;
 
-        public bool ICanOutrun() => false;
+        public bool CanOutrun() => false;
 
     }
 }

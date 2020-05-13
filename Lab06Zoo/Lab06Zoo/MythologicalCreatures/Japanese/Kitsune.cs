@@ -24,6 +24,6 @@ namespace Lab06Zoo.MythologicalCreatures.Japanese
             return "Yip!";
         }
 
-        public bool ICanOutrun() => false;
+        public bool CanOutrun() => false;
     }
 }

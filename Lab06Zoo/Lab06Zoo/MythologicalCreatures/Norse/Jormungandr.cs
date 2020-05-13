@@ -23,6 +23,6 @@ namespace Lab06Zoo.MythologicalCreatures.Norse
             return "Ssssss!";
         }
 
-        public bool ICanRide() => false;
+        public bool CanRide() => false;
     }
 }
