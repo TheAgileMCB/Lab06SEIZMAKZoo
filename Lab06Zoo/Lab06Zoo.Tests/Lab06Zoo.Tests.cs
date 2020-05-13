@@ -14,7 +14,7 @@ namespace Lab06Zoo.Tests
         {
             // Arrange
             Kitsune creature = new Kitsune();
-    
+
             // Act
             string actual = creature.Eats();
 
@@ -67,36 +67,68 @@ namespace Lab06Zoo.Tests
             Assert.Equal("Neigh!", actual);
 
         }
+    }
 
-        public class RideTests
+    public class RideTests
+    {
+        [Fact]
+        public void Can_ride_Sleipnir()
         {
-            [Fact]
-            public void Can_ride_Sleipnir()
-            {
-                // Arrange
-                Sleipnir creature = new Sleipnir();
+            // Arrange
+            Sleipnir creature = new Sleipnir();
 
-                // Act
-                Assert.True(creature.CanRide());
+            // Act
+            Assert.True(creature.CanRide());
 
-                // Assert
-                
-
-            }
-
-            [Fact]
-            public void Can_ride_Jormungandr()
-            {
-                // Arrange
-                Jormungandr creature = new Jormungandr();
-
-                // Act
-                Assert.False(creature.CanRide());
-
-                // Assert
+            // Assert
 
 
-            }
+        }
+
+        [Fact]
+        public void Can_ride_Jormungandr()
+        {
+            // Arrange
+            Jormungandr creature = new Jormungandr();
+
+            // Act
+            Assert.False(creature.CanRide());
+
+            // Assert
+
+
         }
     }
+
+    public class OutrunTests
+    {
+        [Fact]
+        public void Can_outrun_kappa()
+        {
+            // Arrange
+            Kappa creature = new Kappa();
+
+            // Act
+            Assert.True(creature.CanOutrun());
+
+            // Assert
+
+
+        }
+
+        [Fact]
+        public void Can_outrun_chimera()
+        {
+            // Arrange
+            Chimera creature = new Chimera();
+
+            // Act
+            Assert.False(creature.CanOutrun());
+
+            // Assert
+
+
+        }
+    }
+
 }

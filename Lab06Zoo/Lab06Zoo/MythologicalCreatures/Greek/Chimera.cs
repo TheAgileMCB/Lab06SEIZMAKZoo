@@ -23,6 +23,6 @@ namespace Lab06Zoo.MythologicalCreatures.Greek
             return "Roar!";
         }
 
-        public bool CanOutRun() => false;
+        public bool CanOutrun() => false;
     }
 }
