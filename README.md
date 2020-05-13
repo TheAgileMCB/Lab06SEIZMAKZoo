@@ -2,6 +2,10 @@
 A zoo of mythological creatures designed to highlight abstract and virtual properties and methods
 
 #
+## Lincense
+This application is licensed under the [MIT License](https://github.com/mcbarnhart/Lab06SEIZMAKZoo/blob/master/LICENSE).
+
+#
 ## Challenge
 A zoo contains animals, and animals can come in many different shapes and sizes. It is your job to plan and build out what animals live in the zoo.
 
@@ -50,7 +54,5 @@ Test that your program has the following functionality:
 Test that each of your concrete animals exhibit the at least 2 appropriate behaviors given to them from a base class.
 
 #
-## Lincense
-This application is licensed under the [MIT License](https://github.com/mcbarnhart/Lab06SEIZMAKZoo/blob/master/LICENSE).
-
-#
+##Approach
+![Domain Model](https://github.com/mcbarnhart/Lab06SEIZMAKZoo/blob/master/assets/seizmak-zoo.png)
