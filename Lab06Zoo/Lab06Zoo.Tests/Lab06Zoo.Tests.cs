@@ -11,13 +11,27 @@ namespace Lab06Zoo.Tests
         public void Kitsune_Can_eat()
         {
             // Arrange
-            Japanese fox = new Kitsune();
-
+            Kitsune creature = new Kitsune();
+    
             // Act
-            string actual = fox.Eats();
+            string actual = creature.Eats();
 
             // Assert
             Assert.Equal("berries", actual);
+
+        }
+
+        [Fact]
+        public void Kappa_Can_eat()
+        {
+            // Arrange
+            Kappa creature = new Kappa();
+
+            // Act
+            string actual = creature.Eats();
+
+            // Assert
+            Assert.Equal("cucumber", actual);
 
         }
     }
