@@ -6,5 +6,20 @@ namespace Lab06Zoo.MythologicalCreatures.Norse
 {
     public class Jormungandr : Norse
     {
+        public new int numberOfHeads = 1;
+        public new bool isFriendly = false;
+        public override int numberOfLegs => 0;
+        public override int numberOfWings => 0;
+        public new bool heraldsRagnarok = true;
+
+        public override string Eats()
+        {
+            return "Gods";
+        }
+
+        public override string MakeSound()
+        {
+            return "Ssssss!";
+        }
     }
 }
