@@ -7,6 +7,6 @@ namespace Lab06Zoo.MythologicalCreatures.Japanese
 {
     public abstract class Japanese : MythologicalCreature, IEat, IMakeSound
     {
-        public virtual bool willMarryMe = false;
+        public virtual bool willMarryMe { get; set; } = false;
     }
 }

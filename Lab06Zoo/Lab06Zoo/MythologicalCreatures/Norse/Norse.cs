@@ -7,7 +7,7 @@ namespace Lab06Zoo.MythologicalCreatures.Norse
 {
     public abstract class Norse : MythologicalCreature, IEat, IMakeSound
     {
-        public virtual bool heraldsRagnarok = false;
+        public virtual bool heraldsRagnarok { get; set; } = false;
 
         public abstract string Eats();
 
