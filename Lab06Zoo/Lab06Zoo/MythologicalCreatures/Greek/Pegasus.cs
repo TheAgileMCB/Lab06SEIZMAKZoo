@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Lab06Zoo.MythologicalCreatures.Greek
 {
-    public class Pegasus : Greek, ICanRide
+    public class Pegasus : Greek, ICanRide, ICanOutrun
     {
         public new int numberOfHeads = 1;
         public new bool isFriendly = true;
