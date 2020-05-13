@@ -7,10 +7,6 @@ namespace Lab06Zoo.MythologicalCreatures.Interface
 {
     public interface IEat
     {
-        abstract string Eats()
-        {
-            string eat = "";
-            return eat;
-        }
+        abstract string Eats();
     }
 }
