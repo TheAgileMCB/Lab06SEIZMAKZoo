@@ -9,8 +9,8 @@ namespace Lab06Zoo.MythologicalCreatures
     {
         public virtual int numberOfHeads { get; set; } = 1;
         public virtual bool isFriendly { get; set; } = true;
-        public abstract int numberOfLegs { get; set; }
-        public abstract int numberOfWings { get; set; }
+        public abstract int numberOfLegs { get; }
+        public abstract int numberOfWings { get; }
 
     }
 }
