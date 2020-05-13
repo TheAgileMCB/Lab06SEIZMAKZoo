@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Lab06Zoo.MythologicalCreatures.Interface;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Lab06Zoo.MythologicalCreatures.Greek
 {
-    public class Pegasus : Greek
+    public class Pegasus : Greek, ICanRide
     {
         public new int numberOfHeads = 1;
         public new bool isFriendly = true;
@@ -21,5 +22,10 @@ namespace Lab06Zoo.MythologicalCreatures.Greek
         {
             return "Neigh!";
         }
+
+        public bool ICanRide() => true;
+
+        public bool ICanOutrun() => false;
+
     }
 }
