@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Lab06Zoo.MythologicalCreatures.Interface;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Lab06Zoo.MythologicalCreatures.Japanese
 {
-    public class Kappa : Japanese
+    public class Kappa : Japanese, ICanRide, ICanOutrun
     {
         public new int numberOfHeads = 1;
         public new bool isFriendly = false;
@@ -22,5 +23,9 @@ namespace Lab06Zoo.MythologicalCreatures.Japanese
         {
             return "???";
         }
+
+        public bool ICanRide() => false;
+
+        public bool ICanOutrun() => true;
     }
 }
