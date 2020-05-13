@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Lab06Zoo.MythologicalCreatures.Norse
 {
-    public class Sleipnir : Norse, IEat, IMakeSound
+    public class Sleipnir : Norse
     {
         public new int numberOfHeads = 1;
         public new bool isFriendly = true;
